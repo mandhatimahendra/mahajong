@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mandhatimahendra/mahajong/static/css/main.88aec0e1.css",
+    "main.js": "/mandhatimahendra/mahajong/static/js/main.af2e1adc.js",
+    "static/js/453.d9073853.chunk.js": "/mandhatimahendra/mahajong/static/js/453.d9073853.chunk.js",
+    "index.html": "/mandhatimahendra/mahajong/index.html",
+    "main.88aec0e1.css.map": "/mandhatimahendra/mahajong/static/css/main.88aec0e1.css.map",
+    "main.af2e1adc.js.map": "/mandhatimahendra/mahajong/static/js/main.af2e1adc.js.map",
+    "453.d9073853.chunk.js.map": "/mandhatimahendra/mahajong/static/js/453.d9073853.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88aec0e1.css",
+    "static/js/main.af2e1adc.js"
+  ]
+}
