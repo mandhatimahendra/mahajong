@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import {BrowserRouter, Route,Switch} from "react-router-dom"
+import UserPage from "./components/UserPage"
+import PlayBoard  from "./components/PlayBoard";
 import './App.css';
+import SuccessScreen from "./components/SuccessScreen";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App=()=>(
+  <BrowserRouter>
+  <Switch>
+    <Route  exact path="/" component={UserPage}/>
+    <Route  exact path="/playboard" component={PlayBoard}/>
+    <Route  exact path="/gameover" component={SuccessScreen}/>
+  </Switch>
+  </BrowserRouter>
+  
+)
 
 export default App;

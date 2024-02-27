@@ -1,0 +1,19 @@
+.tile{
+    width:60px;
+    height:60px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin-left:10px;
+    margin-top:10px;
+}
+.image-styles{
+    width:60px;
+    height:60px;
+    opacity: 0;
+}
+.active-tile{
+    opacity:1;
+    width:60px;
+    height:60px;
+}

@@ -1,0 +1,61 @@
+.bg-container{
+    width:100vw;
+    height:100vh;
+    
+}
+.app-heading{
+    font-size:40px;
+    font-family:Arial;
+    font-weight:600;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-thickness:3px;
+    
+}
+.main-border-div{
+    margin:0px 40px 0px 40px;
+    border-style: solid;
+    border-width: 3px;
+    height:75%;
+    width:70%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.username{
+    width:50%;
+    height:20%;
+    border-style: solid;
+    border-width:4px;
+    border-color: black;
+    border-radius: 4px;
+    font-size:30px;
+    padding-left:6px;
+
+
+}
+.play-button{
+    font-family: Arial;
+    font-size:20px;
+    width:200px;
+    height:50px;
+    background-color: blue;
+    color: white;
+    text-align:center;
+    margin-top:20px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.play-button:hover{
+    width:210px;
+    height:52px;
+}
+.user-input-label-heading{
+    text-decoration: underline;
+    text-decoration-thickness:3px;
+    margin-bottom:40px;
+
+}
